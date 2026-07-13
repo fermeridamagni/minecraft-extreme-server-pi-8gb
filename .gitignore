@@ -2,3 +2,6 @@
 .env
 .env.*
 !.env.example
+
+# Output files
+data/
