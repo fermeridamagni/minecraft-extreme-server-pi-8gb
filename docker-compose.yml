@@ -19,6 +19,9 @@ services:
       MODE: "survival"
       DIFFICULTY: "hard"
       ICON: "https://assets.magni.dev/icons/650x650-rounded.svg"
+      # Bump this version number whenever you update the server.mrpack
+      # This forces Dokploy to recreate and restart the container automatically!
+      MODPACK_VERSION: "1.0.0"
       OPS: |
         fermeridamagni
     volumes:
