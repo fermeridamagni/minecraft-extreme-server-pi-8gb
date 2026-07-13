@@ -12,6 +12,7 @@ services:
       ONLINE_MODE: "FALSE"
       VERSION: "26.1.2"
       TYPE: "FABRIC"
+      MODRINTH_MODPACK: "/data/mods.mrpack"
       INIT_MEMORY: "2G"
       MAX_MEMORY: "6G"
       MODE: "survival"
@@ -19,3 +20,4 @@ services:
       ICON: "https://assets.magni.dev/icons/650x650-rounded.svg"
     volumes:
       - ./data:/data
+      - ./assets/mods.mrpack:/data/mods.mrpack:ro
