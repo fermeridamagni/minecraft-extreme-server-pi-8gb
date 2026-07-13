@@ -19,6 +19,7 @@ services:
       MODE: "survival"
       DIFFICULTY: "hard"
       ICON: "https://assets.magni.dev/icons/650x650-rounded.svg"
+      OPS:  "fermeridamagni"
     volumes:
       - ./data:/data
       - ./assets/mods.mrpack:/data/mods.mrpack:ro
