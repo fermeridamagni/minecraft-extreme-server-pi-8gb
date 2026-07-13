@@ -5,6 +5,7 @@
 
 # Output files
 data/
+data_backup_*
 
 # macOS
 .DS_Store

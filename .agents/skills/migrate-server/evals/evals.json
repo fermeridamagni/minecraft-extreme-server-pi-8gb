@@ -1,0 +1,23 @@
+{
+  "skill_name": "migrate-server",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "migrate the server",
+      "expected_output": "Agent backups the data folder locally and restarts the docker container locally.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "backup and regenerate the server on the Raspberry Pi",
+      "expected_output": "Agent backups the data folder locally and uses SSH to restart the docker container on the Raspberry Pi.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I just added some new mods to the pack, wipe the world and regenerate it",
+      "expected_output": "Agent backups the data folder locally and restarts the docker container locally.",
+      "files": []
+    }
+  ]
+}
