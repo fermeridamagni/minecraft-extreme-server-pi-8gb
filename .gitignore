@@ -5,3 +5,6 @@
 
 # Output files
 data/
+
+# macOS
+.DS_Store
