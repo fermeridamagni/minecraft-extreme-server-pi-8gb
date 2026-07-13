@@ -22,5 +22,8 @@ services:
       OPS: |
         fermeridamagni
     volumes:
-      - ./data:/data
+      - minecraft_data:/data
       - ./assets/server.mrpack:/data/server.mrpack:ro
+
+volumes:
+  minecraft_data:
