@@ -19,7 +19,8 @@ services:
       MODE: "survival"
       DIFFICULTY: "hard"
       ICON: "https://assets.magni.dev/icons/650x650-rounded.svg"
-      OPS:  "fermeridamagni"
+      OPS: |
+        fermeridamagni
     volumes:
       - ./data:/data
       - ./assets/server.mrpack:/data/server.mrpack:ro
