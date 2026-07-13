@@ -13,7 +13,7 @@ services:
       VERSION: "26.1.2"
       TYPE: "FABRIC"
       MOD_PLATFORM: "MODRINTH"
-      MODRINTH_MODPACK: "/data/mods.mrpack"
+      MODRINTH_MODPACK: "/data/server.mrpack"
       INIT_MEMORY: "2G"
       MAX_MEMORY: "6G"
       MODE: "survival"
