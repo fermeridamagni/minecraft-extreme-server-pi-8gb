@@ -22,4 +22,4 @@ services:
       OPS:  "fermeridamagni"
     volumes:
       - ./data:/data
-      - ./assets/mods.mrpack:/data/mods.mrpack:ro
+      - ./assets/server.mrpack:/data/server.mrpack:ro
