@@ -12,6 +12,7 @@ services:
       ONLINE_MODE: "FALSE"
       VERSION: "26.1.2"
       TYPE: "FABRIC"
+      TZ: "America/Mexico_City"
       MOD_PLATFORM: "MODRINTH"
       MODRINTH_MODPACK: "/data/server.mrpack"
       INIT_MEMORY: "2G"
