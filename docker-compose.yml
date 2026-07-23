@@ -16,7 +16,7 @@ services:
       MOD_PLATFORM: "MODRINTH"
       MODRINTH_MODPACK: "/data/server.mrpack"
       INIT_MEMORY: "2G"
-      MAX_MEMORY: "6G"
+      MAX_MEMORY: "6.5G"
       USE_AIKAR_FLAGS: "true"
       VIEW_DISTANCE: "8"
       SIMULATION_DISTANCE: "6"
