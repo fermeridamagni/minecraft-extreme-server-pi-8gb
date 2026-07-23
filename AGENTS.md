@@ -11,7 +11,7 @@ You can check the local instances content (mods, texture packs, worlds, ...) by 
 
 ## Rules
 
-- Get up-to-date info with the Context7 MCP.
+- Get and use up-to-date info with the Context7 MCP.
 - Get pre-indexed knowledge about the project using the Codegraph MCP.
 - Document and explain why the code is for.
 
