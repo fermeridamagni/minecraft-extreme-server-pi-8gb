@@ -15,22 +15,27 @@ services:
       TZ: "America/Mexico_City"
       MOD_PLATFORM: "MODRINTH"
       MODRINTH_MODPACK: "/data/server.mrpack"
-      INIT_MEMORY: "2G"
+      INIT_MEMORY: "4G"
       MAX_MEMORY: "6G"
       USE_AIKAR_FLAGS: "TRUE"
-      VIEW_DISTANCE: "8"
-      SIMULATION_DISTANCE: "6"
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      VIEW_DISTANCE: "6"
+      SIMULATION_DISTANCE: "4"
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: "60"
+      MAX_TICK_TIME: "60000"
+      JVM_XX_OPTS: "-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1"
       MODE: "survival"
       DIFFICULTY: "hard"
       ICON: "https://assets.magni.dev/icons/650x650-rounded.svg"
       # Bump this version number whenever you update the server.mrpack
       # This forces Dokploy to recreate and restart the container automatically!
-      MODPACK_VERSION: "1.0.0"
+      MODPACK_VERSION: "1.0.1"
       OPS: |
         fermeridamagni
     volumes:
       - minecraft_data:/data
       - ./assets/server.mrpack:/data/server.mrpack:ro
+      - ./config/servercore_config.yml:/data/config/servercore_config.yml
 
 volumes:
   minecraft_data:
