@@ -6,7 +6,7 @@ This is a Minecraft Java server with mods running in a Docker container.
 - OS: DietPi Linux 64-bit
 - Device: Raspberry Pi 5 Model with 8GB RAM
 
-You can connect to the Raspberry using SSH (check the connection details in the .env file).
+You can connect to the Raspberry Pi (PI) using SSH (check the connection details in the .env file).
 You can check the local instances content (mods, texture packs, worlds, ...) by checking the paths in the .env file.
 
 ## Rules
