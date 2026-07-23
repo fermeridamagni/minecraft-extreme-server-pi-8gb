@@ -9,3 +9,6 @@ data_backup_*
 
 # macOS
 .DS_Store
+
+# Codegraph
+.codegraph
