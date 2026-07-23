@@ -1,6 +1,6 @@
 # Project Instructins
 
-This is a Minecraft Java server with mods running in a Docker container and exposing the server to the internet using Tailscale.
+This is a Minecraft Java server using Fabric with mods running in a Docker container and exposing the server to the internet using Tailscale.
 
 - Version: 26.1.2
 - OS: DietPi Linux 64-bit
