@@ -27,6 +27,7 @@ services:
       MODE: "survival"
       DIFFICULTY: "hard"
       ICON: "/data/assets/images/server-icon.png"
+      OVERRIDE_ICON: "TRUE"
       # Bump this version number whenever you update the server.mrpack
       # This forces Dokploy to recreate and restart the container automatically!
       MODPACK_VERSION: "1.0.1"
